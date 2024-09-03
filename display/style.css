@@ -1,0 +1,39 @@
+/*
+
+Bloc
+    Prendre toute la largeur s'il n'y a pas de largeur définie
+    line break
+    Respecter les marges intérieures, les marges extérieures, la largeur et la hauteur
+
+______________________________
+Inline
+
+    Ne pas ajouter de saut de ligne
+    Ne pas respecter la largeur et la hauteur
+    Respecter les marges intérieures et extérieures [juste à droite et à gauche]
+    Permettre des éléments avant et après sur la même ligne
+
+______________________________
+Inline-Block
+
+    Permettre des éléments avant et après sur la même ligne
+    Respecter les marges intérieures, les marges extérieures, la largeur et la hauteur
+
+*/
+
+div {
+    background-color: #EEE;
+    display: block;
+    margin: 10px;
+    padding: 10px 30px;
+    width: 300px;
+    height: 30px;
+}
+span {
+    background-color: #EEE;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 30px;
+    width: 300px;
+    height: 30px;
+  }

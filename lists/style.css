@@ -1,0 +1,9 @@
+ul {
+    list-style-type: lower-greek;
+    list-style-position: inside;
+}
+
+ul li{
+    margin-top: 5px;
+    background-color: bisque;
+}

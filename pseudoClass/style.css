@@ -1,0 +1,35 @@
+.one {
+  background-color: red;
+  color: white;
+}
+.two {
+  background-color: #eee;
+  width: 100px;
+  height: 100px;
+}
+a {
+  margin-inline: 10px;
+  color: green;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+}
+
+.ch:checked + label {
+  text-transform: uppercase;
+}
+
+a:visited {
+  color: aqua;
+}
+
+/* :empty {
+  visibility: visible;
+} */
+.in {
+  border: 1px solid black;
+}
+.in:focus {
+    border: 2px solid aqua;
+}

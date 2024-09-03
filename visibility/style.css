@@ -1,0 +1,10 @@
+div {
+    background-color: red;
+    margin: 10px 0;
+    padding: 40px;
+  }
+  .first {
+    visibility: visible;  /* hidden pour masquer l'element */
+    display: block;
+    /* none pour supp l'element */
+  }

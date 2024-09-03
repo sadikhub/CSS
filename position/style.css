@@ -1,0 +1,45 @@
+div {
+color: white;
+width: 200px;
+padding: 10px;
+}
+
+.relative {
+background-color: red;
+position: relative;
+height: 100px;
+left: 20px;
+bottom: 5px;
+}
+
+.absolut {
+background-color: rgb(153, 129, 23);
+position: absolute;
+height: 100px;
+left: 20px;
+bottom: 5px;
+z-index: 1;
+}
+
+.fixed {
+background-color: green;
+position: fixed;
+bottom: 20px;
+right: 20px;
+}
+
+.parent{
+    background-color: rgb(112, 112, 112);
+    height: 700px;
+    position: relative;
+}
+
+
+.child {
+    background-color: rgb(17, 0, 255);
+    position: absolute;
+    height: 100px;
+    right: 0;
+    bottom: 0;
+    width: 50px;
+    }

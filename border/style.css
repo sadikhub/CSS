@@ -1,0 +1,12 @@
+
+
+  div{
+    background-color: rgb(230, 227, 227);
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+    border-width: 10px;
+    border-color: green black blue red;
+    border-style: dotted solid dashed;
+    outline: 5px black solid;
+  }
